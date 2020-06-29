@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "server": "nodemon index.js",
     "start": "node index.js"
   },
@@ -18,9 +18,11 @@
     "express": "^4.17.1",
     "gitignore": "^0.6.0",
     "helmet": "^3.23.2",
+    "jest": "^26.1.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.1",
-    "sqlite3": "^4.2.0"
+    "sqlite3": "^4.2.0",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
